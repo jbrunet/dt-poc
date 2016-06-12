@@ -23,8 +23,18 @@ namespace DT
             {
                 var yaml = new YamlStream();
                 yaml.Load(sr);
-                var doc = yaml.Documents.First();
-                var root = doc.RootNode;
+                var root = (YamlMappingNode)yaml.Documents[0].RootNode;
+                foreach(var section in root.Children)
+                {
+                    var key = (YamlScalarNode)section.Key;
+                    switch(key.Value)
+                    {
+                        case "hosts":
+                            break;
+                        case "services":
+                            break;
+                    }
+                }
             }
             return config;
         }
