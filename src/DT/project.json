@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "frameworks": {
+    "net451": {
+      "dependencies": {
+        "SSH.NET": "2014.4.6-beta2",
+        "YamlDotNet": "3.9.0",
+        "CommandLineParser": "2.0.275-beta"
+      }
+    }
+  }
+}

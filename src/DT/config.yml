@@ -1,0 +1,15 @@
+﻿---
+version: '1'
+
+hosts:
+  - linux1
+  - linux2
+  - linux3
+
+services:
+  consul:
+    hosts:{linux1,linux2,linux3}
+  nginx:
+    hosts:{linux1,linux2,linux3}
+  mongodb:
+    hosts:{linux1,linux2,linux3}

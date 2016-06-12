@@ -1,0 +1,96 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "CommandLineParser/2.0.275-beta": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
+      "SSH.NET/2014.4.6-beta2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Renci.SshNet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Renci.SshNet.dll": {}
+        }
+      },
+      "YamlDotNet/3.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/YamlDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommandLineParser/2.0.275-beta": {
+      "sha512": "GwuGq7q3kM8ymbPXj3ZNMGY9YKDDPxL3VM3kvTQ+VKqz2fUbvgaSfeRKtAObq/V5yjLw2ur64djBE0L52Pf2dw==",
+      "type": "package",
+      "files": [
+        "CommandLineParser.2.0.275-beta.nupkg.sha512",
+        "CommandLineParser.nuspec",
+        "lib/net40/CommandLine.XML",
+        "lib/net40/CommandLine.dll",
+        "lib/net45/CommandLine.XML",
+        "lib/net45/CommandLine.dll"
+      ]
+    },
+    "SSH.NET/2014.4.6-beta2": {
+      "sha512": "uRgy6E4wztMn+btKuY15zKmPd9fqQJbCcVVMk20ZggbmpXb1pqTXLiwcTqYcJEJteMj5NFVhIGGY9VtHoFiZPQ==",
+      "type": "package",
+      "files": [
+        "SSH.NET.2014.4.6-beta2.nupkg.sha512",
+        "SSH.NET.nuspec",
+        "lib/net35/Renci.SshNet.dll",
+        "lib/net35/Renci.SshNet.xml",
+        "lib/net40/Renci.SshNet.dll",
+        "lib/net40/Renci.SshNet.xml",
+        "lib/sl4-windowsphone71/Renci.SshNet.dll",
+        "lib/sl4-windowsphone71/Renci.SshNet.xml",
+        "lib/sl4/Renci.SshNet.dll",
+        "lib/sl4/Renci.SshNet.xml",
+        "lib/sl5/Renci.SshNet.dll",
+        "lib/sl5/Renci.SshNet.xml",
+        "lib/windowsphone8/Renci.SshNet.dll",
+        "lib/windowsphone8/Renci.SshNet.xml"
+      ]
+    },
+    "YamlDotNet/3.9.0": {
+      "sha512": "zHrUB5ZSrxpuc2DZpj4yjrJkJLoF+VuUW6tgLJNgmQoIhHO84V6heX0TAxTZDNdp/UjVuTAoG/LU5HDrxkKV9w==",
+      "type": "package",
+      "files": [
+        "YamlDotNet.3.9.0.nupkg.sha512",
+        "YamlDotNet.nuspec",
+        "lib/dotnet/YamlDotNet.dll",
+        "lib/dotnet/YamlDotNet.pdb",
+        "lib/dotnet/YamlDotNet.xml",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.pdb",
+        "lib/net35/YamlDotNet.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/YamlDotNet.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/YamlDotNet.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/YamlDotNet.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5.1": [
+      "CommandLineParser >= 2.0.275-beta",
+      "SSH.NET >= 2014.4.6-beta2",
+      "YamlDotNet >= 3.9.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}
